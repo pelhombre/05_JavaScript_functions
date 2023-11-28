@@ -1,1 +1,0 @@
-//import 'checkCollectionHasElements' and execute
