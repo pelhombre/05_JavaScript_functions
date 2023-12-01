@@ -1,8 +1,7 @@
 import transformCollectionToString from "./transformCollectionToString.js";
 
-const result1 = transformCollectionToString([
-  "apple",
-  "grapes",
-  "strawberries",
-]);
-console.log(result1); // apple | grapes | strawberries
+const array1 = ["apple", "grapes", "strawberries"];
+console.log(transformCollectionToString(array1)); //apple grapes strawberries
+
+const array2 = [];
+console.log(transformCollectionToString(array2)); //
